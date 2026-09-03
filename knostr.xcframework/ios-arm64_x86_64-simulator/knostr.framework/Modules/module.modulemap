@@ -1,0 +1,5 @@
+framework module "knostr" {
+    umbrella header "knostr.h"
+    export *
+    module * { export * }
+}
